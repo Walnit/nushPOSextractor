@@ -13,6 +13,8 @@ Extractor for NUS High Programme of Studies (POS) from PDF to CSV.
 
 This repo includes pos.csv generated from POS for C2028
 
+Current information included: "department", "level", "sem", "code", "type", "title", "description", "mcs", "prerequisites", "preclusions", "corequisites", "hrs", "remarks"
+
 ## How it works, in case this stops working
 
 PDFFilter.py filters all horizontal pages as pages are horizontal if and only if they contain useful table data
